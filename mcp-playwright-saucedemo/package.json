@@ -1,0 +1,16 @@
+{
+  "name": "mcp-playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "MCP-Playwright automation for SauceDemo website",
+  "main": "saucedemo-automation.js",
+  "scripts": {
+    "start": "node saucedemo-automation.js",
+    "test": "node saucedemo-automation.js"
+  },
+  "keywords": ["playwright", "automation", "testing", "saucedemo", "mcp"],
+  "author": "AI-Experiments",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
