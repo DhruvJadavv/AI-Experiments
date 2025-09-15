@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com", 
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Book",
+      "price": 19.99,
+      "category": "Education"
+    }
+  ],
+  "testData": {
+    "validCredentials": {
+      "email": "test@example.com",
+      "password": "password123"
+    },
+    "invalidCredentials": {
+      "email": "invalid@example.com",
+      "password": "wrongpassword"
+    },
+    "formData": {
+      "firstName": "Test",
+      "lastName": "User",
+      "company": "Test Company",
+      "message": "This is a test message for form submission."
+    }
+  }
+}
