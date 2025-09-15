@@ -1,0 +1,36 @@
+{
+  "name": "ai-experiments",
+  "version": "1.0.0",
+  "description": "This repository contains experiments and projects related to Artificial Intelligence.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:headless": "cypress run --headless",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
+    "test": "cypress run",
+    "test:ui": "cypress run --spec 'cypress/e2e/01-basic-ui-tests.cy.js'",
+    "test:api": "cypress run --spec 'cypress/e2e/02-api-tests.cy.js'",
+    "test:forms": "cypress run --spec 'cypress/e2e/03-form-validation-tests.cy.js'",
+    "test:advanced": "cypress run --spec 'cypress/e2e/04-advanced-scenarios.cy.js'",
+    "test:visual": "cypress run --spec 'cypress/e2e/05-visual-accessibility-tests.cy.js'",
+    "test:smoke": "cypress run --env grep='@smoke'",
+    "test:regression": "cypress run --env grep='@regression'"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e",
+    "automation",
+    "ai",
+    "experiments"
+  ],
+  "author": "DhruvJadavv",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.1",
+    "cypress": "^15.2.0"
+  }
+}
